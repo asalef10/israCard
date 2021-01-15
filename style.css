@@ -5,6 +5,7 @@ body{
     font-style: oblique;
     justify-content: space-between;
     font-family: 'Varela Round', sans-serif;
+    margin: 10px;
     
     
 
@@ -55,15 +56,17 @@ body{
 .header{
     text-align: center;
     /* border-style: double; */
-    background-image: url(reka1.jpg);
+    /* background-image: url(reka1.jpg); */
+    background-image: url(nic1.jpg);
+
     background-size: cover;
     background-repeat: round;
     height: 50vh;
     width: 98vw;
-    transition: 2s linear;
+    /* transition: 2s linear; */
     /* transform: rotateX(380deg); */
-    animation: header 3s linear;
-    /* animation-iteration-count: infinite; */
+    animation: header 15s linear 3s;
+    animation-iteration-count: infinite;
     /* animation-timing-function: 4s */
     ;
 
@@ -75,16 +78,25 @@ body{
 }
 @keyframes header{
     0%{
-        transform: rotateX(0deg);
+        /* transform:scale(0deg); */
+        background-image: url(nic1.jpg);
     }
+    25%{
+        background-image: url(nic2.jpg);
+    }
+    50%{
+        background-image: url(nic3.jpg);
+    }
+    
     100%{
-        transform: rotateX(380deg);
+        /* transform:scale(380deg); */
+        background-image: url(nic4.jpg);
     }
 }
 
 .nav{
     border-style: inset;
-    color: red;
+    color: rgb(247, 242, 242);
     /* text-align: center;  */
     box-shadow: 16px 20px 17px 7px #647175;
     /* background-color: #ececec69;    */
@@ -184,11 +196,14 @@ color: red;
     /* border: 2px solid red; */
     width: 100%;
     justify-content: space-around;
+    box-shadow: 20px -12px 20px #b5e1ec;
+
 }
 .box{
     width: 40%;
     display: flex;
     flex-flow: column wrap;
+    
 
 
 }
@@ -223,11 +238,13 @@ footer,h1,p{
         right: 0%;
     }
     100%{
-        right: 50%;
+        right: 45%;
     }
 }
 @media (max-width:600px){
     body{
+        width: fit-content;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
@@ -236,4 +253,19 @@ footer,h1,p{
     #nony{
         
     }
+}
+.lev3{
+    background-image: url(lev3.jpg);
+}
+.bbox{
+    display: grid;
+color: rgb(19, 16, 16);
+border-style: ridge;
+}
+.bbox p{
+    border-style: ridge;
+    background-color: aliceblue;
+}
+.yam3{
+    /* background-image: url(ya; */
 }

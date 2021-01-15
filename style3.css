@@ -61,8 +61,20 @@ a{
 .gif{
     background-image: url(gif\ card.gif);
     width: auto;
-    height:400px
+    height:400px;
+    animation: gif 3s linear;
+    animation-iteration-count: infinite;
+
 }
+@keyframes gif{
+    0%{
+        transform:rotateX(0deg);
+    }
+    100%{
+        transform:rotateX(180deg);
+    }
+}
+
 footer{
     width: auto;
     height: 200px;
@@ -75,6 +87,7 @@ footer{
     width: 700px;
     animation-iteration-count: infinite;
     opacity: 0.5;
+    
 }
 @keyframes gifts{
     0%{

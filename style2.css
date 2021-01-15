@@ -41,7 +41,7 @@ opacity: 0.7;
 .box h1{
     box-shadow: -20px 12px 20px 0px;
 }
-ul{
+article ul{
     display: flex;
     flex-wrap: unset;
     list-style: inside;
@@ -61,6 +61,15 @@ ul{
     /* color: rgb(29, 7, 128); */
 background-image: url(kes2.aspx);
 
+}
+.section input,label{
+    display: block;
+    
+    
+    
+}
+.form{
+    
 }
 .footer{
     grid-area: footer;
@@ -105,10 +114,22 @@ background-image: url(halva70.png);
     background-repeat: no-repeat;
     background-size: 55%;
     float: right;
+animation: pic 3s linear 5s;
+/* animation-iteration-count: infinite; */
+}
+@keyframes pic{
+    0%{
 
+        transform: rotateX(120deg);
+    }
+    100%{
+        transform: rotatex(50deg);
+    }
 }
 .num p{
     display: contents;
+    font-size: 50px;
+
 
 }
 
