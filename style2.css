@@ -21,7 +21,15 @@ body{
     /* color: red; */
     background-image: url(new2.jpg);
     background-repeat: round;
+    text-align: center;
+    color: red;
+    border-style: inset;
     
+}
+.header h1{
+    border-style: inset;
+background-color: rgb(235, 226, 226);
+opacity: 0.7;
 }
 
 .box{
@@ -70,6 +78,7 @@ background-image: url(kes2.aspx);
     background-color: lavender;
     /* background-image: url(/kesf.jpg); */
     box-shadow: -16px 20px 20px 0px;
+    
 
 
 }   
@@ -98,6 +107,11 @@ background-image: url(halva70.png);
     float: right;
 
 }
+.num p{
+    display: contents;
+
+}
+
 @media (max-width:600px){
     body{
         float: left;
