@@ -1,0 +1,106 @@
+body{
+
+}
+#ph{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                          'article article article article'
+                          'section section section section'
+                          'footer footer footer footer ';
+                          width: auto;
+                          height: 200vh;
+                          grid-template-rows: 50vh 50vh;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+
+}
+.header{
+    grid-area: header;
+    /* border-style: double; */
+    /* color: red; */
+    background-image: url(new2.jpg);
+    background-repeat: round;
+    
+}
+
+.box{
+    text-align: right;
+    padding: 53px;
+
+    /* background-color: red; */
+}
+.box h1{
+    box-shadow: -20px 12px 20px 0px;
+}
+ul{
+    display: flex;
+    flex-wrap: unset;
+    list-style: inside;
+}
+}
+.article{
+    grid-area: article;
+    /* border-style: double; */
+    /* color: rgb(0, 0, 0); */
+    /* background-image: url(/new2.jpg); */
+    
+
+}
+.section{
+    grid-area: section;
+    /* border-style: double; */
+    /* color: rgb(29, 7, 128); */
+background-image: url(kes2.aspx);
+
+}
+.footer{
+    grid-area: footer;
+    /* border-style: double; */
+    /* color: red; */
+    margin-left: 516px;
+    margin-top: -385px;
+
+
+}
+.num{
+    text-align: right;
+    /* direction: rtl; */
+    direction: rtl;
+    background-color: lavender;
+    /* background-image: url(/kesf.jpg); */
+    box-shadow: -16px 20px 20px 0px;
+
+
+}   
+
+h3{
+    display: inline;
+}
+.box10{
+    width: 243px;
+    height: 137px;
+    background-image: url(halva50.png);
+}
+.box20{
+    width: 243px;
+    height: 137px;
+background-image: url(halva60.png);}
+.box30{
+    width: 243px;
+    height: 137px;
+background-image: url(halva70.png);
+}
+.footer{
+    background-image: url(israCard.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    float: right;
+
+}
+@media (max-width:600px){
+    body{
+        float: left;
+        background-color: rgb(71, 70, 70);
+    }
+}

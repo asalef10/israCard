@@ -1,0 +1,198 @@
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-style: oblique;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+    
+    
+
+}
+#con{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+#wel{
+    width: 1500px;
+    height: 70px;
+    background-color: transparent;
+    border-style: inset;
+    margin: 0;
+    
+    
+}
+
+#wel p{
+    font-size: x-large;
+    text-align: center;
+    
+}
+#wel a{
+    color: red;
+}
+
+
+#wel img{
+    float: right;
+
+}
+.header{
+    text-align: center;
+    /* border-style: double; */
+    background-image: url(reka1.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 50vh;
+    width: 98vw;
+}
+
+.nav{
+    border-style: inset;
+    color: red;
+    /* text-align: center;  */
+    box-shadow: 16px 20px 17px 7px #647175;
+    /* background-color: #ececec69;    */
+    /* background-image: url(/isracard8.png); */
+    background-color: white;
+
+    background-size: revert;
+    background-repeat: repeat-y;
+    filter: brightness(0.9);
+
+}
+#mony{
+    /* width: 500px; */
+    height: 700px;
+    /* border-style: double; */
+    /* color: red; */
+    text-align: right;
+    background-image: url(halva.jpg);
+    box-shadow: -20px 14px 20px 0px #151313;
+transition: 3s linear;    
+    
+    
+}
+#mony:hover{
+background-image: url(isracard\ cartis1.jpg);
+background-repeat: no-repeat;
+
+}
+li{
+    /* display:  inline; */
+    font-size: x-large;
+    border-style: outset;
+    /* margin: 50px; */
+
+    
+}
+ul{
+    width: 343px;
+    float: right;
+    transition: 2s linear;
+
+    
+}
+ul:hover{
+    width: 500px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-style: italic;
+    list-style-type: none;
+
+    
+
+}
+li:hover{
+    border-style: inset;
+    font-size: x-large;
+    opacity: 0.7;
+    font-style: italic;
+    box-shadow: -20px -14px 20px 0px #FFEBEE;
+color: red;
+}
+.section{
+    /* border-style: inset; */
+    width: 98vw;
+    /* height: 98vh; */
+    height: auto;
+    text-align: right;
+    font-family: sans-serif;
+    /* background-color: #f3f3f3; */
+    box-shadow: 20px -4px 20px 0px #151313;
+
+}
+
+}
+.gif{
+
+}
+.header h1{
+    color: red;
+    background-image: url(isracard6.png);
+    height: 73px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+
+.box1{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 100%;
+    justify-content: space-around;
+}
+.box{
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+
+
+}
+#end{
+    /* border: double 5px red; */
+    text-align: center;
+    filter: drop-shadow(-27px 21px 6px black);
+
+}
+.footer{
+    text-align: right;
+    /* background-image: url(/isracard6.png); */
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+footer,h1,p{
+    text-align: right;
+}
+#anim{
+    background-image: url(isracard8.png);
+    width: 243px;
+    height: 166px;
+    border-radius: 70%;
+    animation: ani 3s linear;
+    position: relative;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes ani{
+    0% {
+        right: 0%;
+    }
+    100%{
+        right: 60%;
+    }
+}
+@media (max-width:600px){
+    body{
+        float: left;
+        background-color: rgb(71, 70, 70);
+    }
+}
