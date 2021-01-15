@@ -193,6 +193,6 @@ footer,h1,p{
 @media (max-width:600px){
     body{
         float: left;
-        background-color: rgb(71, 70, 70);
+        /* background-color: rgb(71, 70, 70); */
     }
 }
