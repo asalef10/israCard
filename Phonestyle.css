@@ -1,8 +1,11 @@
 @media (max-width:550px){
-    body{
-        /* background-color: rgb(216, 111, 25); */
-        width: fit-content;
-        height: fit-content;
+    #con1{
+        display: grid;
+        grid-template-areas:       
+        'header1'
+        'section1'
+        'article1'
+        'footer1';;
         
     }
     @keyframes ani{
@@ -30,6 +33,8 @@
 
     }
     #mony ul{
+        text-align: center;
+
     }
     #wel{
         display: none;
@@ -47,4 +52,6 @@
     .box img{
         display: none;
     }
+    
 }
+

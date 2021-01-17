@@ -136,8 +136,9 @@ animation: pic 3s linear 5s;
 @media (max-width:600px){
     
         #ph{
-            display: grid;
-            grid-gap: 15%;
+            display: block;
+
+            /* grid-gap: 15%; */
             /* margin: -24%; */
             grid-template-areas:
                 'article'
@@ -146,6 +147,10 @@ animation: pic 3s linear 5s;
             width: auto;
             height: auto;
         }
-        }
-    }
+    body{
+        display: flex;
+    justify-content: end;
+}
+    }    
+    
 }

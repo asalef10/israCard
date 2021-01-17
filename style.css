@@ -6,12 +6,31 @@ body{
     justify-content: space-between;
     font-family: 'Varela Round', sans-serif;
     margin: 10px;
-    font-size: 105%
+    font-size:small; 
     
 
 }
 
+#con1{
+display: grid;
+grid-template-areas: 'header1 header1 header1 header1'
+                      'section1 section1 section1 section1'
+                      'article1 article1 article1 article1'
+                       'footer1 footer1 footer1 footer1';
 }
+.header1{
+    grid-area: header1;
+}
+.section1{
+    grid-area: section1;
+}
+.article1{
+   grid-area:article1;
+}
+.footer1{
+    grid-area: footer1;
+}
+
 #con{
     /* display: flex; */
     /* flex-wrap: wrap; */
@@ -240,12 +259,30 @@ footer,h1,p{
 
 
 }
-@keyframes ani{
+#anim1{
+    background-image: url(isracard8.png);
+    width: 243px;
+    height: 166px;
+    border-radius: 70%;
+    animation: ani1 3s linear;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ani1{
     0% {
         right: 0%;
     }
     100%{
-        right: 45%;
+        right: 85%;
+    }
+}
+@keyframes ani{
+    0% {
+        left: 0%;
+    }
+    100%{
+        left: 85%;
     }
 }
 /* @media (max-width:600px){
