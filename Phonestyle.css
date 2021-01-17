@@ -1,0 +1,42 @@
+@media (max-width:360px){
+    body{
+        /* background-color: rgb(216, 111, 25); */
+        width: fit-content;
+        height: fit-content;
+        
+    }
+    .header{
+        width: 96vh;
+    }
+    #mony{
+        /* float: left; */
+        width: 96vh;
+        background-image: url(grupisracrt.png);
+        background-repeat: no-repeat;
+
+        
+    }
+    #mony:hover{
+        background-image: url(grupisracrt.png);
+        background-repeat: no-repeat;
+
+    }
+    #mony ul{
+    }
+    #wel{
+        /* display: none; */
+        width: 169vw;
+    }
+    #bbox{
+        /* display: none; */
+        width: fit-content;
+
+    }
+    #boxx p{
+        width: 98vh;
+
+    }
+    img{
+        display: none;
+    }
+}

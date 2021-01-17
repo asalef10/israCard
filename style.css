@@ -6,8 +6,10 @@ body{
     justify-content: space-between;
     font-family: 'Varela Round', sans-serif;
     margin: 10px;
+    font-size: 120%
     
-    
+
+}
 
 }
 #con{
@@ -15,7 +17,7 @@ body{
     /* flex-wrap: wrap; */
 }
 #wel{
-    width: 1500px;
+    /* width: 1500px; */
     height: 70px;
     background-color: transparent;
     border-style: inset;
@@ -50,9 +52,10 @@ body{
 #wel ul{
     /* display: inline-block; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
+
 .header{
     text-align: center;
     /* border-style: double; */
@@ -65,7 +68,7 @@ body{
     width: 98vw;
     /* transition: 2s linear; */
     /* transform: rotateX(380deg); */
-    animation: header 15s linear 3s;
+    animation: header 20s linear;
     animation-iteration-count: infinite;
     /* animation-timing-function: 4s */
     ;
@@ -86,6 +89,9 @@ body{
     }
     50%{
         background-image: url(nic3.jpg);
+    }
+    75%{
+        background-image: url(nic5.jpg);
     }
     
     100%{
@@ -218,6 +224,7 @@ color: red;
     /* background-image: url(/isracard6.png); */
     background-size: contain;
     background-repeat: repeat-y;
+    grid-area: footer;
 }
 footer,h1,p{
     text-align: right;
@@ -241,14 +248,14 @@ footer,h1,p{
         right: 45%;
     }
 }
-@media (max-width:600px){
+/* @media (max-width:600px){
     body{
         width: fit-content;
         height: fit-content;
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
-        /* background-color: rgb(71, 70, 70); */
+        background-color: rgb(71, 70, 70); */
     }
     #nony{
         
