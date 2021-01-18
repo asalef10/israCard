@@ -294,6 +294,7 @@ footer,h1,p{
     display: grid;
 color: rgb(19, 16, 16);
 border-style: ridge;
+background-image: url(lev3.png);
 }
 .bbox p{
     border-style: ridge;
