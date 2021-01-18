@@ -221,7 +221,7 @@ color: red;
     /* border: 2px solid red; */
     width: 100%;
     justify-content: space-around;
-    box-shadow: 20px -12px 20px #b5e1ec;
+    box-shadow: 20px -12px 20px #000000;
 
 }
 .box{
@@ -285,18 +285,7 @@ footer,h1,p{
         left: 85%;
     }
 }
-/* @media (max-width:600px){
-    body{
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: left;
-        background-color: rgb(71, 70, 70); */
-    }
-    #nony{
-        
-    }
+    
 }
 .lev3{
     background-image: url(lev3.jpg);

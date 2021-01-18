@@ -1,6 +1,8 @@
 body{
     font-family: 'Varela Round', sans-serif;
     font-size: 80%;
+    direction: rtl;
+
 
 
 }
@@ -112,7 +114,7 @@ footer{
     img{
         display: none;
     }
-    
+
 header{
     width: 1401px;
     height: 348px;
