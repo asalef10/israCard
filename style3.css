@@ -1,5 +1,7 @@
 body{
     font-family: 'Varela Round', sans-serif;
+    font-size: 80%;
+
 
 }
 .con{
@@ -99,11 +101,21 @@ footer{
     }
 
 }
-@media (max-width:600px){
+@media (max-width:550px){
     body{
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
+        font-size: 276%;
         
     }
+    
+    }
+    img{
+        display: none;
+}
+header{
+    width: 1401px;
+    height: 348px;
+
 }

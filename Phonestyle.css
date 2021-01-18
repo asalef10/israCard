@@ -8,14 +8,7 @@
         'footer1';;
         
     }
-    @keyframes ani{
-        0% {
-            right: 0%;
-        }
-        100%{
-            right: 8%;
-        }
-    }
+   
     .header{
         width: 118vh;
     }
@@ -52,6 +45,22 @@
     .box img{
         display: none;
     }
+    @keyframes ani{
+        0% {
+            left: 0%;
+        }
+        100%{
+            left: 80%;
+        }
+    }
+    @keyframes ani1{
+        0% {
+            left:0%;
+        }
+        100%{
+            left:95%;
+        }
+        
     
 }
 
